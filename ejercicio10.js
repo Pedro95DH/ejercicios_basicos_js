@@ -9,15 +9,16 @@ function average(numberList) {
     suma += numbers[i];
   }
   const promedio = suma / numbers.length;
-  console.log (`el promedio de los números del array es ${promedio} \n`)
+  console.log(`el promedio de los números del array es ${promedio} \n`);
 }
 
 average(numbers);
 
 //Versión Array Function
 
-const promedio = numbers.reduce((sumatorio, valorInicial) => 
-sumatorio += (valorInicial / numbers.length),0
-)
+const promedio = numbers.reduce(
+  (sumatorio, valorInicial) => (sumatorio += valorInicial / numbers.length),
+  0
+);
 
 console.log(promedio);

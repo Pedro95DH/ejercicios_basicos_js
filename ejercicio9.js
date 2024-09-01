@@ -9,15 +9,15 @@ function sumNumbers() {
   for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
   }
-  console.log (`la suma de todos los números del array es ${sum} \n`)
+  console.log(`la suma de todos los números del array es ${sum} \n`);
 }
 
 sumNumbers(numbers);
 
 //Versión Array Function
 
-const sumatorio = numbers.reduce((acumulador, number) => 
- acumulador += number
-)
+const sumatorio = numbers.reduce(
+  (acumulador, number) => (acumulador += number)
+);
 
 console.log(sumatorio);
