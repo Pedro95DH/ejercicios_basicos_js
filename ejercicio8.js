@@ -24,7 +24,7 @@ function findLongestWord() {
 
 findLongestWord(avengers);
 
-//Método Optimizado
+//Versión Array Function
 
 const findLongestWord2 = avengers.reduce(
   (accumulator, currentValue) =>

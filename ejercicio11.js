@@ -22,7 +22,7 @@ function averageWord(list) {
 
 averageWord(mixedElements);
 
-//Versión Optimizada
+//Versión Array Function
 
 const promedio2 = (lista) =>
 {

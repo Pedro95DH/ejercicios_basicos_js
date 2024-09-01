@@ -29,7 +29,7 @@ function removeDuplicates(list) {
 }
 removeDuplicates(duplicates);
 
-//Versión optimizada
+//Versión Array Function
 
 let result = duplicates.filter((item, index) => {
   return duplicates.indexOf(item) === index;
