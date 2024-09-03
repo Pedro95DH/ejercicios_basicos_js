@@ -29,8 +29,8 @@ nameFinder(names,"Peter");
 
 //Versión Array Function
 
-let nombrecito = (nameLista,name) => {
-    nameLista.indexOf(name) !== -1 ? console.log(true, nameLista.indexOf(name)) : console.log(false)};
+let nombrecito = (nameLista,nombre) => {
+    nameLista.indexOf(nombre) !== -1 ? console.log(true, nameLista.indexOf(nombre)) : console.log(false)};
  
   nombrecito(names,"Bruce");
   
