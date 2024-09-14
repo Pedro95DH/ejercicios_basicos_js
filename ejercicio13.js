@@ -16,21 +16,22 @@ const names = [
   "Marc",
 ];
 
-function nameFinder(nameList,name) {
-    if (nameList.indexOf(name) !== -1) {
-        console.log(true, nameList.indexOf(name))
-    }
-    else{
-        console.log(false);
-    }
+function nameFinder(nameList, name) {
+  if (nameList.indexOf(name) !== -1) {
+    console.log(true, nameList.indexOf(name));
+  } else {
+    console.log(false);
+  }
 }
 
-nameFinder(names,"Peter");
+nameFinder(names, "Peter");
 
 //Versión Array Function
 
-let nombrecito = (nameLista,nombre) => {
-    nameLista.indexOf(nombre) !== -1 ? console.log(true, nameLista.indexOf(nombre)) : console.log(false)};
- 
-  nombrecito(names,"Bruce");
-  
+let nombrecito = (nameLista, nombre) => {
+  nameLista.indexOf(nombre) !== -1
+    ? console.log(true, nameLista.indexOf(nombre))
+    : console.log(false);
+};
+
+nombrecito(names, "Bruce");
