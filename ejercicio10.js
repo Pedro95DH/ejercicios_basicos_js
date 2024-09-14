@@ -14,7 +14,7 @@ function average(numberList) {
 
 average(numbers);
 
-//Versión Array Function
+console.log("\nVersión Array Function \n");
 
 const promedio = numbers.reduce(
   (sumatorio, valorInicial) => (sumatorio += valorInicial / numbers.length),

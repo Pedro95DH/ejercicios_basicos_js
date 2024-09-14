@@ -26,7 +26,7 @@ function nameFinder(nameList, name) {
 
 nameFinder(names, "Peter");
 
-//Versión Array Function
+console.log("\nVersión Array Function \n");
 
 let nombrecito = (nameLista, nombre) => {
   nameLista.indexOf(nombre) !== -1

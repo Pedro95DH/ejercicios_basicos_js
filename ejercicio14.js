@@ -4,21 +4,41 @@
 // Puedes usar este array para probar tu función:
 
 const words = [
-    'code',
-    'repeat',
-    'eat',
-    'sleep',
-    'code',
-    'enjoy',
-    'sleep',
-    'code',
-    'enjoy',
-    'sleep',
-    'code'
-  ];
+  "code",
+  "repeat",
+  "eat",
+  "sleep",
+  "code",
+  "enjoy",
+  "sleep",
+  "code",
+  "enjoy",
+  "sleep",
+  "code",
+];
 
-  function repeatCounter(list) {
-    
+function repeatCounter(list) {
+  const repeticiones = [];
+  for (const elemento of list) {
+    if (repeticiones[elemento]) {
+      repeticiones[elemento]++;
+    } else {
+      repeticiones[elemento] = 1;
+    }
   }
+  console.log(repeticiones, "\n");
+}
 
-  repeatCounter(words);
+repeatCounter(words);
+
+console.log("\nVersión Array Function \n");
+
+const contador = (lista) => {
+  const repetir = [];
+  for (const elemento of lista) {
+    repetir[elemento] ? repetir[elemento]++ : (repetir[elemento] = 1);
+  }
+  console.log(repetir);
+};
+
+contador(words);

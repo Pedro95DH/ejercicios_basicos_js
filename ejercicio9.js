@@ -14,7 +14,7 @@ function sumNumbers() {
 
 sumNumbers(numbers);
 
-//Versión Array Function
+console.log("\nVersión Array Function \n");
 
 const sumatorio = numbers.reduce(
   (acumulador, number) => (acumulador += number)

@@ -9,8 +9,6 @@ const avengers = [
   "Captain M.",
 ];
 
-//Método Básico
-
 function findLongestWord() {
   let Avenger = "";
   for (let i = 0; i < avengers.length; i++) {
@@ -24,7 +22,7 @@ function findLongestWord() {
 
 findLongestWord(avengers);
 
-//Versión Array Function
+console.log("\nVersión Array Function \n");
 
 const findLongestWord2 = avengers.reduce(
   (accumulator, currentValue) =>

@@ -31,7 +31,7 @@ function averageWord(list) {
 
 averageWord(mixedElements);
 
-//Versión Array Function
+console.log("\nVersión Array Function \n");
 
 const promedio2 = (lista) => {
   let sumatorio = 0;

@@ -29,7 +29,7 @@ function removeDuplicates(list) {
 }
 removeDuplicates(duplicates);
 
-//Versión Array Function
+console.log("\nVersión Array Function \n");
 
 let result = duplicates.filter((item, index) => {
   return duplicates.indexOf(item) === index;
